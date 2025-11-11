@@ -1,0 +1,108 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    background: url(Assets/luca-bravo-O453M2Liufs-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav {
+    position: fixed;
+    height: 80px;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgba(100, 97, 97, 0.4);
+}
+
+
+.logo {
+    float: left;
+    color: black;
+    font-size: 22px;
+    line-height: 70px;
+    padding: 0 6em;
+    font-weight: lighter;
+    color: #13e7d6;
+}
+
+.menu {
+    float: right;
+    line-height: 40px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0 10px;
+    margin: 0 10px;
+    color: #13e7d6;
+    border: 1px solid aqua;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.nav a:hover{
+    color: #88fafa;
+    border-bottom: 2px solid #00ffff;
+    text-decoration: none;
+}
+.main-text{
+    color: rgb(16, 228, 228);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50% , -50%);
+      z-index: 2;
+}
+.main-text h1{
+    font-size: 46px;
+    font-weight: 400px;
+    bottom: 8px;
+}
+.main-text p {
+    font-weight: lighter;
+    font-size: 24px;
+}
+.main-text button {
+    background-color: #009f8b;
+    padding: 18px 38px;
+    font-size: 14px;
+    border: none;
+    margin-top: 48px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
+}
+button:hover{
+    background-color: #008080;
+    cursor: pointer;
+    transform: scale(1.05) ;
+    transition: all 0.3s ease;
+}
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
